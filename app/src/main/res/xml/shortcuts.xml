@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_shuffle"
+        android:shortcutId="shuffle_all"
+        android:shortcutLongLabel="@string/shortcut_shuffle_long"
+        android:shortcutShortLabel="@string/shortcut_shuffle">
+        <intent
+            android:action="com.svara.app.action.SHUFFLE_ALL"
+            android:targetClass="com.svara.app.MainActivity"
+            android:targetPackage="com.svara.app" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_resume"
+        android:shortcutId="resume"
+        android:shortcutLongLabel="@string/shortcut_resume_long"
+        android:shortcutShortLabel="@string/shortcut_resume">
+        <intent
+            android:action="com.svara.app.action.RESUME"
+            android:targetClass="com.svara.app.MainActivity"
+            android:targetPackage="com.svara.app" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutId="recently_played"
+        android:shortcutLongLabel="@string/shortcut_recent_long"
+        android:shortcutShortLabel="@string/shortcut_recent">
+        <intent
+            android:action="com.svara.app.action.RECENTLY_PLAYED"
+            android:targetClass="com.svara.app.MainActivity"
+            android:targetPackage="com.svara.app" />
+    </shortcut>
+</shortcuts>

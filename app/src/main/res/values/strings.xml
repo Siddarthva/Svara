@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SVARĀ</string>
+    <string name="widget_small_description">Song, artist and play controls</string>
+    <string name="widget_medium_description">Artwork, song, controls and progress</string>
+    <string name="widget_large_description">Large artwork, controls, progress, favourite and queue</string>
+    <string name="widget_small_label">SVARĀ small</string>
+    <string name="widget_medium_label">SVARĀ medium</string>
+    <string name="widget_large_label">SVARĀ large</string>
+    <string name="shortcut_shuffle">Shuffle all</string>
+    <string name="shortcut_shuffle_long">Shuffle all songs</string>
+    <string name="shortcut_resume">Resume</string>
+    <string name="shortcut_resume_long">Resume where you left off</string>
+    <string name="shortcut_recent">Recently played</string>
+    <string name="shortcut_recent_long">Open recently played</string>
+    <string name="tile_label">SVARĀ</string>
+</resources>

@@ -1,0 +1,32 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin
+.kotlin
+/app/build
+/.robolectric
+
+# Signing (never commit)
+keystore.properties
+*.jks
+*.keystore
+
+# Design source files and screenshots (local reference only)
+/amazon_music_ui_design_features.md
+/apple_music_ui_design_features.json
+/gaana_ui_design_features.json
+/spotify_ui_design_features.json
+/docs/screenshots/

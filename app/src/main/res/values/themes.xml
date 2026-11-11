@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The window starts in the app's dark background (dark is the default for every preset), so
+         there is no white flash before the first frame or on rotation. MainActivity then keeps it
+         in step with the active theme's background. -->
+    <style name="Theme.Svara" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/svara_icon_background</item>
+    </style>
+</resources>
